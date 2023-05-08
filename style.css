@@ -1,0 +1,228 @@
+body {
+  background-color: #E5E5E5;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: "SF Pro Display Bold";
+  src: url("./fonts/SF-Pro-Display-Bold.OTF");
+}
+
+a {
+  color: #A0A4B1;
+  text-decoration: none;
+}
+
+
+a:hover {
+  color: #000000;
+  text-decoration: none;
+  border-radius: 20px;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0rem !important;
+}
+
+.card P {
+  font-size: 14px;
+
+}
+
+.texto-header {
+  margin-bottom: -50px;
+}
+
+.img-header {
+  width: 100%;
+}
+
+button {
+  border: none;
+  margin-left: 150px;
+}
+
+.button {
+  padding: 8px 25px 8px 25px;
+  width: 170px !important;
+  background: #7553E2;
+  text-align: center;
+  border-radius: 8px;
+  color: aliceblue !important;
+}
+
+
+#divBusca {
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 10px;
+  width: 360px;
+  height: 40px;
+}
+
+
+#txtBusca {
+  background-color: transparent;
+  padding-left: 10px;
+  font-size: 18px;
+  height: 38px;
+  border: none;
+}
+
+#btnBusca {
+  border: none !important;
+  float: left;
+  height: 32px;
+  width: 70px;
+  font-weight: bold;
+  background: #FFFFFF;
+}
+
+#diBusca input {
+  border: none !important;
+  align-items: center;
+}
+
+#divBusca img {
+  float: left;
+  margin-top: 12px;
+  margin-left: 15px;
+}
+
+textarea:focus,
+input:focus {
+  box-shadow: 0 0 0 0;
+  outline: 0;
+}
+
+.button-2 {
+  padding: 10px;
+  width: 150px !important;
+  background: #ffffff;
+  text-align: center;
+  border-radius: 8px;
+  color: rgb(0, 0, 0) !important;
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+
+.dropdown-menu{
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.title {
+  font-size: 16px !important;
+  margin-top: 15px;
+}
+
+.subtitle {
+  font-size: 14px !important;
+  color: #7F7F7F;
+}
+
+.card {
+  border-radius: 20px;
+  margin: 20px;
+  padding: 30px;
+  background-color: white !important;
+}
+
+.card p {
+  text-align: center;
+}
+
+.card img{
+  padding-top: 20px;
+}
+
+#navbar {
+  align-items: center;
+
+}
+
+.texto-header {
+  padding: 30px;
+  color: #ffffff;
+  background-image: url(img/header.jpg);
+}
+
+.faixa ul li {
+  display: inline-block;
+  padding-right: 30px;
+  color: white !important;
+}
+
+.faixa ul li :hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.navbar {
+  background-color: #000000;
+}
+
+.navbar .links {
+  text-decoration: none;
+}
+
+.navbar {
+  color: #ffffff !important;
+}
+
+.title img {
+  width: 50px;
+}
+
+.card {
+  align-items: center;
+}
+
+.nav-link {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.more {
+  position: absolute;
+  margin-left: 250px;
+}
+
+.seta {
+  margin-left: 50px;
+}
+@media screen and (max-width: 1200px) {
+
+
+  body { 
+    overflow-x: hidden !important
+  }
+
+  button{
+    text-align: center;
+    margin-left: 90px;
+  }
+
+  #divBusca {
+    width: 300px;
+    margin-bottom: 20px;
+  }
+
+  h2{
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .fields img {
+    padding-left: 50px
+  }
+
+
+}
